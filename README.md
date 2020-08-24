@@ -17,23 +17,17 @@ Let's begin.
 3. Write the following lines of code and after each one of them press Enter. Whenever it asks your permission to proceed just press "y" and then Enter.
 ```
 apt update
-```
-```
+
 apt install python-pip
-```
-```
+
 pip install ytmusicapi
-```
-```
+
 pkg up
-```
-```
+
 pkg install git
-```
-```
+
 git clone https://github.com/PaoloLRinaldi/upload_to_ytmusic_android.git
-```
-```
+
 cp upload_to_ytmusic_andorid/UploadToYTMusic.py ./
 ```
 4. Open Firefox on your PC.
@@ -84,8 +78,9 @@ If you put it in a folder named Music it will be
 If you store it in your SD card the path is simple. Check how to find it on the web.
 
 ## Everytime usage
-The list of all your songs will be shown in ascending time order (from the older to the newer).
+The list of all your songs will be shown in ascending time order (from the oldest to the newest).
 They are numbered. Just write the list of the songs' numbers separated by Space and press Enter.
+
 Done.
 
 # Credits
