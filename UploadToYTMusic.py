@@ -55,9 +55,9 @@ while(not good_music_path):
 
 
 # Arguments (2 options):
-# upnewmusic2.py 'the divisor' [list of numbers of the songs to choose (separated by space). 0 is the newest]
+# UploadToYTMusic.py 'the divisor' [list of numbers of the songs to choose (separated by space). 0 is the newest]
 # or
-# upnewmusic2.py
+# UploadToYTMusic.py
 
 # If arguments are passed the script will behave as a no-input program
 quiet = len(sys.argv) > 1
