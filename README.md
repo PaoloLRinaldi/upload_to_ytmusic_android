@@ -36,7 +36,7 @@ cp upload_to_ytmusic_andorid/UploadToYTMusic.py ./
 7. Press Ctrl + Shift + i.
 8. A tab has opened (let's call it DevTab). Go on the section "Network".
 9. Now, on Youtube Music, click on "Library".
-10. On DevTab there should be several lines. On the left of this lineas there are various "200" in green. Right click on one of these lines, then go to "Copy" and finally "Copy request headers".
+10. On DevTab there should be several lines. On the left of this lines there are various "200" in green. Right click on one of these lines, then go to "Copy" and finally "Copy request headers".
 11. Send yourself the text that has been copied (for example via WhatsApp web, Telegram, mail, etc.). Simply press Ctrl + V to paste the text.
 12. Go back to your Android device.
 13. Copy the text you've sent yourself at point 10.
