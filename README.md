@@ -36,6 +36,7 @@ pip install ytmusicapi
 python
 ```
 and press Enter.
+
 12. Python has opened. Now write the following lines of code and after each one of them press Enter.
 ```python
 from ytmusicapi import YTMusic
