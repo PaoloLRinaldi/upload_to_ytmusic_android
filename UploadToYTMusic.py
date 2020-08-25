@@ -6,7 +6,7 @@ from ytmusicapi import YTMusic
 
 
 def first_time_file(filename, message):
-        '''
+	'''
 	Retrieve infos from a file. If the file
 	doesn't exist it asks the user for this
 	infos and store them in the file.
