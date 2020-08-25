@@ -19,6 +19,7 @@ Let's begin.
 termux-setup-storage
 ```
 then press Enter and select "Allow".
+
 4. Write the following lines of code and after each one of them press Enter.
 ```
 apt update -y
