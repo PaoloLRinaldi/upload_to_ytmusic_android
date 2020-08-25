@@ -71,6 +71,12 @@ python UploadToYTMusic.py
 ```
 and press Enter.
 
+The list of all your songs will be shown in ascending time order (from the oldest to the newest).
+They are numbered. Just write the list of the songs' numbers separated by Space and press Enter.
+
+Done.
+
+
 ## First Time
 The first time you launch it, it will ask you the directory where you store your music. It must be an absolute path.
 For example if you store it in the Download directory the path will be:
@@ -94,12 +100,6 @@ in a folder named Music, the path will be
 /storage/0012-ABCD/Music/
 ```
 Again, "0012-ABCD" is just an example. Remember to use the output of the line of code above.
-
-## Everytime usage
-The list of all your songs will be shown in ascending time order (from the oldest to the newest).
-They are numbered. Just write the list of the songs' numbers separated by Space and press Enter.
-
-Done.
 
 # Credits
 This code is based on [this repository](https://github.com/sigma67/ytmusicapi.git) by [sigma67](https://github.com/sigma67).
