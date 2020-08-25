@@ -7,10 +7,10 @@ from ytmusicapi import YTMusic
 
 def first_time_file(filename, message):
         '''
-        Retrieve infos from a file. If the file
-        doesn't exist it asks the user for this
-        infos and store them in the file.
-        '''
+	Retrieve infos from a file. If the file
+	doesn't exist it asks the user for this
+	infos and store them in the file.
+	'''
 	try:
 		f = open(filename, 'r')
 	except:
@@ -34,7 +34,7 @@ except:
 	rmfile = input('Authentication failed. Maybe two years have passed and you should generate \"headers_auth.json\" again.\nRemove \"headers_auth.json\"? [y/n]: ')
 	if rmfile == 'y':
 		os.remove(static_path + 'headers_auth.json')
-        sys.exit('Aborting. Check your internet connection or try to regenerate the \"headers_auth.json\" file.')
+	sys.exit('Aborting. Check your internet connection or try to regenerate the \"headers_auth.json\" file.')
 
 
 # Get music path
@@ -48,7 +48,7 @@ while(not good_music_path):
 		os.chdir(music_dir)
 	except:
 		good_music_path = False
-                os.remove(static_path + 'music_dir.txt')
+		os.remove(static_path + 'music_dir.txt')
 		sys.stderr.write('Path does not exist, insert again.\n')
 	else:
 		good_music_path = True
