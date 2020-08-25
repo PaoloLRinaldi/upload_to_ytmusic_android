@@ -55,7 +55,7 @@ YTMusic.setup(filepath='headers_auth.json')
 16. Now long press somewhere on the screen and select "Paste".
 17. Press Enter.
 18. Press Ctrl (right above the keyboard) and then "D".
-19. Repeat point 15 once again.
+19. Again, press Crtl and then "D".
 
 # Usage for dummies
 To launch the script open Termux and write
