@@ -3,7 +3,7 @@ Officially you can't upload the songs stored in your android smartphone directly
 Now, with this simple script, you can.
 No programming skills required.
 
-Technically you could upload your songs by opening https://music.youtube.com/ from firefox on your phone and switching to Desktop mode.
+Technically you could upload your songs by opening https://music.youtube.com/ from whichever browser on your phone and switching to Desktop mode.
 However, once installed, this script makes this procedure 10x faster.
 
 # Requirements
