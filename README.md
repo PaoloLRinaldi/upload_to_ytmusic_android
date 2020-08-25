@@ -74,7 +74,18 @@ If you put it in a folder named Music it will be
 ```
 /storage/emulated/0/Music/
 ```
-If you store it in your SD card the path is simple. Check how to find it on the web.
+### Music in SD Card
+If you store it in your SD card the path is simple. Open termux and write:
+```
+ls /storage | egrep "[A-Z0-9]{4}-[A-Z0-9]{4}"
+```
+and press Enter. The output should be of the form ????-???? where each "?" is a digit or a capital letter.
+Now simply substitute "emulated/0" with your output (e.g. 0012-ABCD) in the path. So if you store your music
+in a folder named Music, the path will be
+```
+/storage/0012-ABCD/Music/
+```
+Again, "0012-ABCD" is just an example. Remember to use the output of the line of code above.
 
 ## Everytime usage
 The list of all your songs will be shown in ascending time order (from the oldest to the newest).
