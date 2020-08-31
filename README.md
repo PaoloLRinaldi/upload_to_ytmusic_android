@@ -23,7 +23,7 @@ termux-setup-storage
 ```
 then press Enter and select "Allow".
 
-4. Write the following lines of code and after each one of them press Enter. Alternatively you can copy them altogether and paste them on Termux and, when it arrives at the last command, just press Enter once.
+4. Write the following lines of code and after each one of them press Enter. Alternatively you can copy them altogether and paste them on Termux (not recommended) and, when it arrives at the last command, just press Enter once.
 ```
 apt update -y
 
