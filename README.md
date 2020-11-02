@@ -50,7 +50,7 @@ cp upload_to_ytmusic_andorid/UploadToYTMusic.py ./
 11. On DevTab there should be several lines. On the left of these lines there are various "200" in green. Right click on any of these lines labeled with "POST", then go to "Copy" and finally "Copy request headers".
 12. Send the text that has been copied to your account (for example via WhatsApp web, Telegram, mail, etc.). Simply press Ctrl + V to paste the text.
 13. Go back to your Android device.
-14. Copy to clipboard the text you've sent to your account at point 10.
+14. Copy to clipboard the text you've sent to your account at point 12.
 15. On Termux write
 ```
 python
