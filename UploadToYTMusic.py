@@ -102,6 +102,11 @@ for i in range(len(inp)):
 		res = str(e)
 
 	if res != "STATUS_SUCCEEDED":  # If failed
+		if '<Response [401]>' == str(res):
+			if not quiet:
+				print('Your authentication has expired. Please regenerate the \"headers_auth.json\" file.')
+			failed = [files[inp[j]] for j in range(len(inp))]
+			break
 		if '<Response [409]>' == str(res):
 			if not quiet:
 				print("You have already uploaded this song")
