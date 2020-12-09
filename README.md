@@ -9,7 +9,7 @@ However, once installed, this script makes this procedure 10x faster.
 # Requirements
 - Android
 - No programming skills
-- PC with Firefox installed
+- PC with Firefox, Chrome or Edge installed
 
 # Installation guide for dummies
 It may take up to 15 minutes but it's extremely simple.
@@ -41,13 +41,19 @@ git clone https://github.com/PaoloLRinaldi/upload_to_ytmusic_android.git
 
 cp upload_to_ytmusic_andorid/UploadToYTMusic.py ./
 ```
-5. Open Firefox on your PC.
+5. Open Firefox/Chrome/Edge on your PC.
 6. Go to https://music.youtube.com/.
 7. If you are not logged in do it.
 8. Press Ctrl + Shift + i.
-9. A tab has opened (let's call it DevTab). Go on the section "Network".
+9. A tab has opened (let's call it DevTab). Go on the section "Network" and on the search bar (named "Filter" or "Filter URLs") type "browse".
 10. Now, on Youtube Music, click on "Library".
-11. On DevTab there should be several lines. On the left of these lines there are various "200" in green. Right click on any of these lines labeled with "POST", then go to "Copy" and finally "Copy request headers".
+11. If Firefox:
+    - On DevTab there should be several lines. On the left of these lines there are various "200" in green. Right click on any of these lines labeled with "POST", then go to "Copy" and finally "Copy request headers".
+
+    If Chrome or Edge:
+    - On DevTab there should be several lines (or requests). Choose a request and verify that it looks like this: **Status** 200, **Type** xhr, **Name** ``browse?...``
+    - Click on the Name of any matching request. In the "Headers" tab, scroll to the section "Request headers" and copy everything starting from "accept: \*/\*" to the end of the section
+
 12. Send the text that has been copied to your account (for example via WhatsApp web, Telegram, mail, etc.). Simply press Ctrl + V to paste the text.
 13. Go back to your Android device.
 14. Copy to clipboard the text you've sent to your account at point 12.
