@@ -105,5 +105,9 @@ in a folder named Music, the path will be
 ```
 Again, "0012-ABCD" is just an example. Remember to use the output of the line of code above.
 
+# Authentication Expired
+In case of authentication expired you have to regenerate the 'headers_auth.json' file.
+Simply repeat steps 5 to 20 in "Installation guide for dummies".
+
 # Credits
 This code is based on [this repository](https://github.com/sigma67/ytmusicapi.git) by [sigma67](https://github.com/sigma67).
